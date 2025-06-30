@@ -1,6 +1,6 @@
 # Štatistický projekt – Matúš Tóth – Students' Social Media Addiction
 
-Tieto dáta pochádzajú z datasetu: [Student Social Media & Relationships](https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships)
+Tieto dáta pochádzajú z datasetu: [Student Social Media & Relationships](https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships)  
 Dataset obsahuje anonymizované záznamy o správaní $110$ študentov na sociálnych sieťach (Facebook, Instagram, LinkedIn, Snapchat, TikTok, Twitter, YouTube) a ich vplyve na študijné výsledky a počet hodín spánku respondentov.
 
 Všetky Python skripty, ako aj dáta, nájdete v GitHub repozitári:
@@ -24,7 +24,7 @@ Table value chi^2: 12.59
 
 Pre všetky dáta a všetky platformy **zamietame nulovú hypotézu**, keďže naša nameraná hodnota $\chi^2$ bola vyššia ako tabuľková hodnota pre $\alpha = 0.05$.
 
-Medzi dátami sú však niektoré platformy, ktoré sú charakterovo odlišné (**LinkedIn**). Keď zopakujeme predchádzajúce meranie pre dáta, z ktorých sme odstránili používateľov platformy **LinkedIn**, **nemôžeme zamietnuť nulovú hypotézu**.
+Medzi dátami sú však niektoré platformy, ktoré sú charakterovo odlišné (**LinkedIn**). Keď zopakujeme predchádzajúce meranie pre dáta, z ktorých sme odstránili používateľov platformy LinkedIn, **nemôžeme zamietnuť nulovú hypotézu**.
 
 ```bash
 Chi^2 test without LinkedIn users:
