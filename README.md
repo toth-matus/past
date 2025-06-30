@@ -8,7 +8,7 @@ Všetky Python skripty, ako aj dáta, nájdete v GitHub repozitári:
 
 ## Test dobrej zhody
 
-V tejto sekcii sa budeme sústrediť na vzťah medzi **ovplyvnením študijných výsledkov** *(Affects_Academic_Performance)* a **najčastejšie používanou platformou** *(Most_Used_Platform)*.
+V tejto sekcii sa budeme sústrediť na vzťah medzi **ovplyvnením študijných výsledkov** *(Affects_Academic_Performance)* a **najčastejšie používanou platformou** *(Most_Used_Platform)*.  
 **Nulová hypotéza:** Respondenti pociťujú vplyv na svoje akademické výsledky bez ohľadu na platformu, na ktorej trávia čas.
 
 Zdrojový kód sa nachádza v súbore `src/chi2_test.py` (alebo kliknite [sem](src/chi2_test.py)).
@@ -44,7 +44,7 @@ Priemerný strávený čas na platformách:
 
 ## Štatistika korelácie
 
-V tejto sekcii sa budeme sústrediť na koreláciu medzi **priemerným časom stráveným na danej platforme** *(Avg_Daily_Usage_Hours)* a **počtom hodín spánku** *(Sleep_Hours_Per_Night)* respondentov.
+V tejto sekcii sa budeme sústrediť na koreláciu medzi **priemerným časom stráveným na danej platforme** *(Avg_Daily_Usage_Hours)* a **počtom hodín spánku** *(Sleep_Hours_Per_Night)* respondentov.  
 **Nulová hypotéza:** Medzi *Avg_Daily_Usage_Hours* a *Sleep_Hours_Per_Night* nie je korelácia.
 
 Zdrojový kód sa nachádza v súbore `src/correlation_test.py` (alebo kliknite [sem](src/correlation_test.py)).
@@ -57,7 +57,7 @@ p-value: 1.5570570249936598e-62
 ```
 
 Z hodnoty **$\rho$** vyplýva, že existuje silná inverzná závislosť medzi *Avg_Daily_Usage_Hours* a *Sleep
-_Hours_Per_Night*. (Samozrejme, nejde o dôkaz kauzality.)
+_Hours_Per_Night*. (Samozrejme, nejde o dôkaz kauzality.)  
 Z hodnoty $p < 0.05$ môžeme **zamietnuť nulovú hypotézu** $($pre $\alpha = 0.05)$ a predpokladať, že medzi dátami existuje korelácia.
 
 Naplottované dáta:
