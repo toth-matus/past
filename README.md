@@ -58,7 +58,7 @@ p-value: 1.5570570249936598e-62
 
 Z hodnoty **$\rho$** vyplýva, že existuje silná inverzná závislosť medzi *Avg_Daily_Usage_Hours* a *Sleep
 _Hours_Per_Night*. (Samozrejme, nejde o dôkaz kauzality.)  
-Z hodnoty $p < 0.05$ môžeme **zamietnuť nulovú hypotézu** $($pre $\alpha = 0.05)$ a predpokladať, že medzi dátami existuje korelácia.
+Z hodnoty $p < 0.05$ môžeme **zamietnuť nulovú hypotézu** $($ pre $\alpha = 0.05 )$ a predpokladať, že medzi dátami existuje korelácia.
 
-Naplottované dáta:
+Naplottované dáta:  
 ![Korelácia](img/correlation.png)
